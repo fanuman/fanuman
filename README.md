@@ -10,13 +10,13 @@ My rule for these systems: **the model reads, software decides.** The LLM extrac
 LangGraph pipeline that extracts fields from messy quotes and invoices, then validates and reconciles them in code. Postgres row-level security per tenant, FastAPI, LangSmith tracing, and a CI quality gate scored against synthetic documents with known answers.
 
 **[TrailPeak Support Agent](https://github.com/fanuman/trailpeak-support-agent)** · customer support agent for an outdoor store
-ReAct agent over a hybrid-search RAG with live stock checks and source-cited answers. Evaluated on a golden question set with RAGAS; deployed on AWS with Docker, ECS/Fargate and Terraform.
+ReAct agent over a hybrid-search RAG with live stock checks and source-cited answers. Evaluated on a golden question set with an LLM-as-judge harness (faithfulness, answer relevancy, context precision and recall) that fails the build on regressions; deployed on AWS with Docker, ECS/Fargate and Terraform.
 
 Demos and write-ups for both: **[fanuman.github.io](https://fanuman.github.io/)**
 
 ## Stack
 
-Python · LangGraph · LangChain · FastAPI · Postgres · Redis · Docker · AWS (ECS, Fargate, Bedrock) · Terraform · LangSmith · RAGAS
+Python · LangGraph · LangChain · FastAPI · Postgres · Redis · Docker · AWS (ECS, Fargate, Bedrock) · Terraform · LangSmith · OpenAI API
 
 ## Contact
 
