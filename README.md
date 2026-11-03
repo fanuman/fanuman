@@ -20,4 +20,4 @@ Python · LangGraph · LangChain · FastAPI · Postgres · Redis · Docker · AW
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/numan-farukh-9864251b9) · numanfarukh22@gmail.com · Remote, with EU and US overlap
+[LinkedIn](https://www.linkedin.com/in/numanfarukh/) · numanfarukh22@gmail.com · Remote, with EU and US overlap
